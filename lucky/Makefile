@@ -50,7 +50,7 @@ endif
 
 PKG_SOURCE:=lucky_$(PKG_VERSION)_Linux_$(LUCKY_ARCH).tar.gz
 PKG_SOURCE_URL:=https://github.com/gdy666/lucky/releases/download/v$(PKG_VERSION)
-PKG_HASH:=skip
+PKG_HASH:=78adf3fa5e8869be0b1510cb7cc755d57dccb13252989c8394a7207a392fe66
 PKG_BUILD_DIR:=$(BUILD_DIR)/$(PKG_NAME)-$(PKG_VERSION)
 
 include $(INCLUDE_DIR)/package.mk
